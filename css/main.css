@@ -1,7 +1,13 @@
 body{
-    background-color:grey;
+    background-image: url("../assets/images/new-york.jpg");
+    background-size: cover;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 0;
+}
+
+.preloader-wrapper{
+    height: auto;
+    width: 100%;
 }
 
 .white-border{
