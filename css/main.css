@@ -1,16 +1,7 @@
 body{
-    background-image: url("../assets/images/new-york.jpg");
+    background-image: url("../assets/images/lyft-competencia-uber.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
     padding: 0;
-}
-
-.preloader-wrapper{
-    height: auto;
-    width: 100%;
-}
-
-.white-border{
-    border: 1px solid white;
-    border-radius: 5px;
 }

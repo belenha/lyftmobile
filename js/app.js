@@ -9,14 +9,12 @@
 //   $("#splashScreen").show().delay(3000).hide();
 // });
 
-document.addEventListener("DOMContentLoaded", function(){
-  $('#splashScreen').delay(2000).fadeOut('slow');
+// document.addEventListener("DOMContentLoaded", function(){
+//   $('#splashScreen').delay(4000).fadeOut('slow');
   
-  $('.preloader-wrapper')
-      .delay(1000)
-      .fadeOut('slow');
-});
+//   $('.preloader-wrapper')
+//       .delay(4000)
+//       .fadeOut('slow');
+// });
 
-$(document).ready(function(){
-    $('select').formSelect();
-  });
+setTimeout(function(){ window.location = ('principal.html') }, 3000);

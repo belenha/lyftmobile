@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/principal.css">
+</head>
+<body>
+    <!-- iniciar sesión -->
+    <header>
+        <div class="center-align">
+            <img class="topLogo responsive-img" src="assets/images/lift-logoblanco.png" alt="">
+        </div>
+        <div class="center-align">
+            <img class="bottomLogo responsive-img" src="assets/images/lyft.png" alt="">
+        </div>
+        <div class="row">
+            <div class="col l6 m6 s6">
+                <a class="white-border btn right valign-wrapper N/A transparent btn-large white-text">LOG IN</a>
+            </div>
+            <div class="col l6 m6 s6">
+                <a class="white-border btn left valign-wrapper N/A transparent btn-large white-text modal-trigger"  href="#modal1">SIGN UP</a>
+            </div>
+        </div>
+    </header>
+    <!-- modal -->
+    <div id="modal1" class="modal">
+            <div class="modal-content">
+                <h4>Sign Up</h4>
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s3">
+                                <select>
+                                    <option value="" disabled selected>Selecciona tu País</option>
+                                    <option value="México" data-icon="assets/images/MEX.jpg"></option>
+                                    <option value="Polonia" data-icon="assets/images/polonia.png"></option>
+                                    <option value="Tailandia" data-icon="assets/images/tailandia.jpg"></option>
+                                </select>
+                                <label>Join now for free credit ride</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">phone</i>
+                                <input id="contact-phone" type="tel" class="validate">
+                                <label for="contact-phone">Telephone</label>
+                            </div>
+                        </div>
+                    </form>
+                    <p class="center-align">We´ll send you a text to verify your phone</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a id="add-contact" href="#!" class="modal-close waves-effect waves-green btn #e91e63 pink">Next</a>
+            </div>
+            </div> 
+
+    <!-- tarjeta pais y telefono -->
+    <!-- <div class="row">
+        <div class="input-field col l4 m6 s12">
+            <select>
+                <option value="" disabled selected>Selecciona tu País</option>
+                <option value="México" data-icon="assets/images/MEX.jpg">México</option>
+                <option value="Polonia" data-icon="assets/images/polonia.png">Polonia</option>
+                <option value="Tailandia" data-icon="assets/images/tailandia.jpg">Tailandia</option>
+            </select>
+            <label class="white-text">Join now for free credit ride</label>
+        </div> -->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script src="js/principal.js"></script>
+</body>
+</html>
+
